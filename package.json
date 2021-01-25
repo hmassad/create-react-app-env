@@ -12,9 +12,9 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "./env.sh && mv env-config.js public/. && react-scripts start",
+    "build": "./env.sh && mv env-config.js public/. && react-scripts build",
+    "test": "./env.sh && mv env-config.js public/. && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
